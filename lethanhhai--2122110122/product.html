@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Nếu bạn sử dụng JavaScript cho các chức năng như lọc, sắp xếp, thay đổi kiểu xem, hãy bao gồm các tệp script ở đây -->
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Copy header content from index.html -->
+        <!-- Đây là một ví dụ, bạn có thể điều chỉnh nó cho phù hợp -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <!-- Filter and sort options -->
+        <div class="filter-sort">
+            <!-- Filter options -->
+            <select id="filter">
+                <option value="all">All</option>
+                <!-- Thêm các tùy chọn lọc khác tại đây -->
+            </select>
+
+            <!-- Sort options -->
+            <select id="sort">
+                <option value="name">Name</option>
+                <option value="price">Price</option>
+                <!-- Thêm các tùy chọn sắp xếp khác tại đây -->
+            </select>
+
+            <!-- Type view options -->
+            <button onclick="changeView('list')">List</button>
+            <button onclick="changeView('grid')">Grid</button>
+        </div>
+
+        <!-- Product list -->
+        <div class="product-container">
+            <!-- Product cards will be dynamically generated here -->
+            <!-- Đây là nơi bạn sẽ thêm sản phẩm card từ dữ liệu của bạn -->
+            <!-- Mỗi sản phẩm sẽ có một thẻ div hoặc li, tuỳ thuộc vào cách bạn muốn thiết kế -->
+        </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Copy footer content from index.html -->
+        <!-- Đây là một ví dụ, bạn có thể điều chỉnh nó cho phù hợp -->
+        <div class="footer-content">
+            <p>Contact us at: contact@example.com</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Additional scripts -->
+    <!-- Include any JavaScript files here if needed -->
+    <script src="script.js"></script>
+</body>
+
+</html>
